@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a77395e-ae24-4559-a912-695608d1d5cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductManager$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ProductManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProductManagerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Module2-Week1/src/StopWatch/Run.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
     <configuration name="ProductManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -60,7 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1592903135527</updated>
       <workItem from="1592903139174" duration="6212000" />
-      <workItem from="1592916455633" duration="6037000" />
+      <workItem from="1592916455633" duration="6574000" />
+      <workItem from="1592963950986" duration="515000" />
+      <workItem from="1592964481678" duration="293000" />
+      <workItem from="1592964940918" duration="95000" />
+      <workItem from="1592965507338" duration="369000" />
+      <workItem from="1592966698761" duration="64000" />
+      <workItem from="1592966783190" duration="1769000" />
+      <workItem from="1592971921842" duration="269000" />
     </task>
     <servers />
   </component>
@@ -68,33 +84,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1592964521101">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1592964521101" />
     <state x="488" y="66" key="#com.intellij.ide.util.MemberChooser" timestamp="1592904558605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="66" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592904558605" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1592924736293">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1592924748126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592924736293" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1592920740432">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592924748126" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1592967853795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592920740432" />
-    <state width="1306" height="560" key="GridCell.Tab.0.bottom" timestamp="1592923398929">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592967853795" />
+    <state width="1306" height="560" key="GridCell.Tab.0.bottom" timestamp="1592972042016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="560" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592923398929" />
-    <state width="1306" height="560" key="GridCell.Tab.0.center" timestamp="1592923398929">
+    <state width="1306" height="560" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592972042016" />
+    <state width="1306" height="560" key="GridCell.Tab.0.center" timestamp="1592972042016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="560" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592923398929" />
-    <state width="1306" height="560" key="GridCell.Tab.0.left" timestamp="1592923398929">
+    <state width="1306" height="560" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592972042016" />
+    <state width="1306" height="560" key="GridCell.Tab.0.left" timestamp="1592972042016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="560" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592923398929" />
-    <state width="1306" height="560" key="GridCell.Tab.0.right" timestamp="1592923398929">
+    <state width="1306" height="560" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592972042016" />
+    <state width="1306" height="560" key="GridCell.Tab.0.right" timestamp="1592972042016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="560" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592923398929" />
+    <state width="1306" height="560" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592972042016" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1592971969079">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592971969079" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1592966701009">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592966701009" />
+    <state x="88" y="0" key="new project wizard" timestamp="1592972027847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="88" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1592972027847" />
   </component>
 </project>

@@ -93,30 +93,13 @@ public class ProductManager extends Product {
 
     public void sortUpAscending() {
         displayProductList();
-        Collections.sort(products, new Comparator<Product>() {
-            public int compare(Product o1, Product o2) {
-                int price1 = o1.getPrice();
-                int price2 = o2.getPrice();
-                if (price1 > price2) return 1;
-                else if (price1 == price2) return 0;
-                else return -1;
-            }
-        });
+        Collections.sort(products, (o1, o2) -> (o1.getPrice() - o2.getPrice()));
         displayProductList();
     }
 
     public void sortedDescending() {
         displayProductList();
-        Collections.sort(products, new Comparator<Product>() {
-            public int compare(Product o1, Product o2) {
-                int price1 = o1.getPrice();
-                int price2 = o2.getPrice();
-                if (price1 < price2) return 1;
-                else if (price1 == price2) return 0;
-                else return -1;
-            }
-        });
+        Collections.sort(products, (o1, o2) -> (o2.getPrice() - o1.getPrice()));
         displayProductList();
     }
-
 }
